@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.cardbody{
+     width: 32%;
+     text-align: center;
+    padding: 10px;
+    border: 1px solid green;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: gray;
+
+}
+.header{
+    text-align: center;
+    padding: 10px;
+    color: #b94040;
+    font-family: monospace;
+}
+.bt-name{
+    border-radius: 4px;
+    border: 1px solid red;
+    padding: 5px;
+}
+.bt-name:hover{
+    background-color: #e97676;
+    color: white;
+}
